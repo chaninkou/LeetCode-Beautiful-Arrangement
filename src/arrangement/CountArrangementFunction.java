@@ -28,11 +28,13 @@ public class CountArrangementFunction {
 
 	// Helper method
 	private void helper(int[] nums, int start) {
+		// Whenever it gets to 0, then Increment count
 		if (start == 0) {
 			count++;
 			return;
 		}
-
+		
+		// start from the end
 		for (int i = start; i > 0; i--) {
 			swap(nums, start, i);
 

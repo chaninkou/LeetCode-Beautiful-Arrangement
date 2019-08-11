@@ -2,7 +2,7 @@ package arrangement;
 
 public class Main {
 	public static void main(String[] args) {
-		int N = 4;
+		int N = 2;
 		
 		System.out.println("Input: " + N);
 		
